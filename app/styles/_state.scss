@@ -1,0 +1,7 @@
+.show-nav #application-menu-wrapper {
+  -webkit-transform: translateX(300px);
+  transform: translateX(300px);
+
+  -webkit-transform: translate3d(300px, 0, 0);
+  transform: translate3d(300px, 0, 0);
+}
