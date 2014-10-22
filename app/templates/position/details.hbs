@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Professional experience details</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>{{positionName}} <small>- {{title}}</small></h3>
+    <p><em>for <strong>{{company.name}}</strong> </em></p>
+    <p><small>from <strong>{{tdat-monthyear startDate}}</strong> to <strong>{{tdat-monthyear endDate}}</strong></small></p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Role activities</h3>
+  </div>
+  <div class="col-xs-12">
+    {{#each activity in activities}}
+      {{activity.shortDescription}}
+    {{/each}}
+  </div>
+</div>

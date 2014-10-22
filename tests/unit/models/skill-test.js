@@ -5,7 +5,14 @@ import {
 
 moduleForModel('skill', 'Skill', {
   // Specify the other units that are required for this test.
-  needs: []
+  needs: [
+    'model:skillset',
+    'model:skill-indicator',
+    'model:skill-metric',
+    'model:position',
+    'model:position-activity',
+    'model:profile'
+  ]
 });
 
 test('it exists', function() {

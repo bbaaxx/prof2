@@ -3,14 +3,15 @@ import {
   test
 } from 'ember-qunit';
 
-moduleForModel('skill-indicator', 'SkillIndicator', {
+moduleForModel('position', 'Position', {
   // Specify the other units that are required for this test.
   needs: [
+    'model:profile',
     'model:skill',
-    'model:skillset',
-    'model:skill-metric',
-    'model:position-activity',
-  ]
+    'model:company',
+    'model:positionset',
+    'model:position-activity'
+    ]
 });
 
 test('it exists', function() {

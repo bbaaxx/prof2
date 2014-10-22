@@ -12,8 +12,8 @@ var fixtures = [
 
 export default DS.Model.extend({
 
-  unitName: DS.attr('string'),
-  unit: DS.attr('number', {defaultValue: 1}),
-  baseValue: DS.attr('number', {defaultValue: 1})
+  unitName:   DS.attr('string'),
+  unit:       DS.attr('number', {defaultValue: 1}),
+  baseValue:  DS.attr('number', {defaultValue: 1})
 
 }).reopenClass({FIXTURES:fixtures});

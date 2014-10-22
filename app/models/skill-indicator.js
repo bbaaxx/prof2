@@ -10,15 +10,17 @@ var fixtures = [
     id: 2,
     name: 'Projects on which the skill was used',
     metric: 2,
-    value: 1
+    value: 4
   }
 ];
 
 export default DS.Model.extend({
 
-  name: DS.attr('string'),
-  metric: DS.belongsTo('skill-metric', {async: true}),
-  value: DS.attr('number'),
+  name:     DS.attr('string'),
+  value:    DS.attr('number'),
+  skill:    DS.belongsTo('skill', {async: true}),
+  metric:   DS.belongsTo('skill-metric', {async: true}),
+
   availableMetrics: function(){
     return this.store.findAll('skill-metric');
   }.property()

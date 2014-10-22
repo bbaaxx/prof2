@@ -8,14 +8,15 @@ var fixtures = [
   }, {
     id: 2,
     name: 'Project Management',
-    indicators: [1]
+    indicators: [2]
   }
 ];
 
 export default DS.Model.extend({
 
-  name: DS.attr('string'),
-  indicators: DS.hasMany('skill-indicator', {async:true}),
-
+  name:         DS.attr('string'),
+  indicators:   DS.hasMany('skill-indicator', {async:true}),
+  skillsets:    DS.hasMany('skillset', {async:true}),
+  activities:   DS.hasMany('position-activity', {async:true})
 
 }).reopenClass({ FIXTURES: fixtures });

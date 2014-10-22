@@ -3,14 +3,9 @@ import {
   test
 } from 'ember-qunit';
 
-moduleForModel('skill-indicator', 'SkillIndicator', {
+moduleForModel('education', 'Education', {
   // Specify the other units that are required for this test.
-  needs: [
-    'model:skill',
-    'model:skillset',
-    'model:skill-metric',
-    'model:position-activity',
-  ]
+  needs: [ 'model:education-qualification' ]
 });
 
 test('it exists', function() {
