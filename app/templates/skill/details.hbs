@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h4>Name</h4>
+    {{#if name}}
+    <p class="lead">{{name}}</p>
+    {{else}}
+    <p class="text-warning"><small>Please name this skill</small></p>
+    {{/if}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h4>Indicators</h4>
+    {{#if indicators}}
+    <ul class="list-unstyled">
+      {{#each indicator in indicators}}
+        <li>{{indicator.name}}: {{indicator.value}} {{tstr-pluralize indicator.value indicator.metric.unitName}}</li>
+      {{/each}}
+    </ul>
+    {{else}}
+    <p class="text-warning"><small>Please add some indicators</small></p>
+    {{/if}}
+  </div>
+</div>

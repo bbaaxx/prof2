@@ -1,0 +1,2183 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"se",
+				"selectedMetric"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"Skill",
+				"skillItemFinder"
+			],
+			[
+				"sk",
+				"skillItemFinder"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"in",
+				"industries"
+			],
+			[
+				"thi",
+				"thisQuery"
+			],
+			[
+				"ava",
+				"availableRealms"
+			],
+			[
+				"sea",
+				"searchQueryFor"
+			],
+			[
+				"n",
+				"newSkill"
+			],
+			[
+				"qr",
+				"qryRealms"
+			],
+			[
+				"rel",
+				"relToTest"
+			],
+			[
+				"tes",
+				"testRelation"
+			],
+			[
+				"del",
+				"deleteMode"
+			],
+			[
+				"de",
+				"destDir"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"l",
+				"linkto	{{#link-to}} {{/link-to}}"
+			],
+			[
+				"em",
+				"Ember"
+			],
+			[
+				"ret",
+				"retArry"
+			],
+			[
+				"head",
+				"headingTexts"
+			],
+			[
+				"hea",
+				"headingsArry"
+			],
+			[
+				"he",
+				"headingsArry"
+			],
+			[
+				"intro",
+				"introTexts"
+			],
+			[
+				"pro",
+				"profileIntros"
+			],
+			[
+				"profile",
+				"profile"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bui",
+				"buildStyles"
+			],
+			[
+				"buil",
+				"buildClientJs"
+			],
+			[
+				"bu",
+				"buildClientAppJs"
+			],
+			[
+				"ass",
+				"assetList"
+			],
+			[
+				"as",
+				"assetList"
+			],
+			[
+				"cu",
+				"currentList"
+			],
+			[
+				"cur",
+				"currentClass"
+			],
+			[
+				"ma",
+				"makeObject"
+			],
+			[
+				"ge",
+				"generatedStyles"
+			],
+			[
+				"mon",
+				"mongoOptions"
+			],
+			[
+				"ser",
+				"serverTests"
+			],
+			[
+				"no",
+				"notify"
+			],
+			[
+				"mo",
+				"mochaTests"
+			],
+			[
+				"client",
+				"clientJs"
+			],
+			[
+				"js",
+				"jshintClientJs"
+			],
+			[
+				"jshi",
+				"jshintServerJs"
+			],
+			[
+				"REST",
+				"RESTAdapter"
+			],
+			[
+				"tra",
+				"transitionToRoute"
+			],
+			[
+				"ren",
+				"renderTemplate"
+			],
+			[
+				"ta",
+				"tags"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"login",
+				"loginfrm"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"boo",
+				"bootstrapModels"
+			],
+			[
+				"adm",
+				"adminCheck"
+			],
+			[
+				"is",
+				"isAdmin"
+			],
+			[
+				"dud",
+				"dudlyDoo"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"genera",
+				"generatedImagesDir"
+			],
+			[
+				"rr",
+				"registerTask"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/templates/skills.hbs",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/skill.hbs",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import Ember from 'ember';\n\nexport default Ember.Mixin.create({\n  someProp: null,\n  someCompProp: function(){\n    return 'Some prop is now: ' + this.get('someProp');\n  }.property('someProp')\n});\n",
+			"file": "app/mixins/thingie.js",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/adapters/application.js",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/skills.js",
+			"settings":
+			{
+				"buffer_size": 130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/skill.js",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application.js",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ina",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"snilin",
+				"Snippet: {{#link-to}} {{/link-to}}"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ali",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"syn jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"synmus",
+				"Set Syntax: HTML with mustaches"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)",
+			"sublime.log_input(True)",
+			"sublime.log_input(true)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/S/projects/emcv",
+		"/S/projects/emcv/app",
+		"/S/projects/emcv/app/components",
+		"/S/projects/emcv/app/mixins",
+		"/S/projects/emcv/app/views",
+		"/S/projects/emcv/tests",
+		"/S/projects/emcv/tests/helpers"
+	],
+	"file_history":
+	[
+		"/S/projects/emcv/tests/unit/adapters/application-test.js",
+		"/S/projects/emcv/app/templates/application.hbs",
+		"/S/projects/emcv/app/routes/application.js",
+		"/S/projects/emcv/README.md",
+		"/S/projects/emcv/package.json",
+		"/S/projects/emcv/app/models/skill.js",
+		"/S/projects/emcv/tests/unit/models/skill-test.js",
+		"/S/projects/emcv/testem.json",
+		"/S/projects/emcv/app/router.js",
+		"/S/projects/emcv/app/styles/_base.scss",
+		"/S/projects/emcv/tests/unit/controllers/application-test.js",
+		"/S/projects/emcv/tests/unit/helpers/fstr-capall-test.js",
+		"/S/projects/emcv/tests/unit/helpers/fstr-capfirst-test.js",
+		"/S/projects/emcv/tests/unit/helpers/tstr-pluralize-test.js",
+		"/S/projects/emcv/tests/unit/routes/application-test.js",
+		"/S/projects/emcv/tests/unit/routes/skills-test.js",
+		"/S/projects/emcv/config/environment.js",
+		"/S/projects/emcv/emcv.sublime-project",
+		"/S/projects/emcv/app/models/.gitkeep",
+		"/S/projects/emcv/app/styles/_module.scss",
+		"/S/projects/emcv/app/helpers/tstr-pluralize.js",
+		"/S/projects/emcv/app/helpers/fstr-capall.js",
+		"/S/projects/emcv/app/helpers/fstr-capfirst.js",
+		"/S/projects/emcv/dist/.gitkeep",
+		"/S/projects/emcv/app/app.js",
+		"/S/projects/emcv/app/controllers/application.js",
+		"/S/projects/emcv/app/templates/skills.hbs",
+		"/S/projects/emcv/app/controllers/.gitkeep",
+		"/S/projects/emcv/.editorconfig",
+		"/S/projects/emcv/dist/crossdomain.xml",
+		"/S/projects/emcv/bower.json",
+		"/S/projects/emcv/Brocfile.js",
+		"/S/projects/emcv/app/adapters/application.js",
+		"/S/projects/emcv/app/routes/skills.js",
+		"/S/projects/emcv/.ember-cli",
+		"/S/projects/emcv/app/routes/index.js",
+		"/S/projects/emcv/app/templates/index.hbs",
+		"/S/projects/emcv/app/styles/_state.scss",
+		"/C/Users/Eduardo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Eduardo/Desktop/Brushed/Template/brushed/index.html",
+		"/S/projects/emcv/app/routes/dispatcher.js",
+		"/S/projects/emcv/app/templates/dispatcher.hbs",
+		"/S/projects/emcv/tests/unit/routes/dispatcher-test.js",
+		"/S/projects/emcv/app/styles/app.scss",
+		"/S/projects/profprof/bower.json",
+		"/S/projects/profprof/package.json",
+		"/S/projects/profprof/profprof.sublime-project",
+		"/S/projects/profprof/dist/assets/bootstrap/glyphicons-halflings-regular.woff",
+		"/S/projects/profprof/app/templates/components/indicator-editor.hbs",
+		"/S/projects/profprof/app/templates/skill/editor.hbs",
+		"/S/projects/profprof/app/adapters/application.js",
+		"/S/projects/profprof/app/components/indicator-editor.js",
+		"/Z/projects/profprof/app/styles/_base.scss",
+		"/Z/projects/profprof/app/components/skill-toolbox.js",
+		"/Z/projects/profprof/app/models/skill.js",
+		"/C/Users/Eduardo/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/Z/projects/profprof/app/templates/skill.hbs",
+		"/Z/projects/profprof/app/templates/skills/create.hbs",
+		"/Z/projects/profprof/app/templates/skill/edit.hbs",
+		"/Z/projects/profprof/app/templates/skill/editor.hbs",
+		"/Z/projects/profprof/app/templates/skill/details.hbs",
+		"/Z/projects/profprof/app/helpers/ft-pluralize.js",
+		"/Z/projects/profprof/app/router.js",
+		"/Z/projects/profprof/app/routes/skill/edit.js",
+		"/Z/projects/profprof/app/routes/skills/create.js",
+		"/Z/projects/profprof/app/controllers/skills/create.js",
+		"/Z/projects/profprof/app/adapters/application.js",
+		"/home/bax/Code/projects/profprof/package.json",
+		"/home/bax/Code/projects/profprof/app/templates/components/skill-display-full.hbs",
+		"/home/bax/Code/projects/profprof/app/models/skill/indicator.js",
+		"/home/bax/Code/projects/profprof/app/models/skill/metric.js",
+		"/home/bax/Code/projects/profprof/app/helpers/ft-pluralize.js",
+		"/home/bax/Code/projects/profprof/app/helpers/pluralize.js",
+		"/home/bax/Code/projects/profprof/tests/test-helper.js",
+		"/home/bax/Code/projects/profprof/tests/unit/models/skill/metric-test.js",
+		"/home/bax/Code/projects/profprof/app/models/skill.js",
+		"/home/bax/Code/projects/profprof/dist/assets/fonts/fontawesome-webfont.woff",
+		"/home/bax/Code/projects/profprof/app/models/role.js",
+		"/home/bax/Code/projects/profprof/app/templates/skill/edit-skill.hbs",
+		"/home/bax/Code/projects/profprof/app/models/resume.js",
+		"/home/bax/Code/projects/profprof/app/models/skill/scale.js",
+		"/home/bax/Code/projects/profprof/tests/unit/models/skill-test.js",
+		"/home/bax/Code/projects/profprof/app/templates/skill/details.hbs",
+		"/home/bax/Code/projects/profprof/app/templates/application.hbs",
+		"/home/bax/Code/projects/profprof/app/templates/skill/editor.hbs",
+		"/home/bax/Code/projects/profprof/config/environment.js",
+		"/home/bax/Code/projects/profprof/app/controllers/skill/edit.js",
+		"/home/bax/Code/projects/profprof/app/routes/skill.js",
+		"/home/bax/Code/projects/profprof/README.md",
+		"/home/bax/Code/projects/profprof/app/controllers/resume/edit.js",
+		"/home/bax/Code/projects/profprof/testem.json",
+		"/home/bax/Code/projects/profprof/app/templates/skills.hbs",
+		"/home/bax/Code/projects/profprof/app/templates/skills/index.hbs",
+		"/home/bax/Code/projects/profprof/app/templates/skill/index.hbs",
+		"/home/bax/Code/projects/profprof/tests/unit/models/skill/indicator-test.js",
+		"/home/bax/Code/projects/profprof/app/styles/_base.scss",
+		"/home/bax/Code/projects/profprof/bower.json",
+		"/home/bax/Code/projects/profprof/profprof.sublime-project",
+		"/home/bax/Code/projects/profprof/.sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_base.scssc",
+		"/home/bax/Code/projects/profprof/dist/assets/test-support.css",
+		"/home/bax/Code/projects/profprof/tests/unit/models/industry-test.js",
+		"/home/bax/Code/projects/profprof/app/models/industry.js",
+		"/home/bax/Code/projects/profprof/app/templates/skill.hbs",
+		"/home/bax/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/bax/Code/projects/profprof/app/templates/skill/display-skill.hbs",
+		"/home/bax/Code/projects/profprof/app/routes/skill/edit.js",
+		"/home/bax/Code/projects/profprof/app/routes/skills.js",
+		"/home/bax/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/bax/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/bax/Code/projects/profprof/app/components/skill-toolbox.js",
+		"/home/bax/Code/projects/profprof/dist/assets/bootstrap/glyphicons-halflings-regular.svg",
+		"/home/bax/Code/projects/profprof/.editorconfig",
+		"/home/bax/Code/projects/profprof/app/templates/skills/create.hbs",
+		"/home/bax/Code/projects/profprof/app/routes/skills/create.js",
+		"/home/bax/Code/projects/profprof/app/models/skill/nature.js",
+		"/home/bax/Code/projects/profprof/app/templates/index.hbs",
+		"/home/bax/Code/projects/profprof/.sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_module.scssc",
+		"/home/bax/Code/projects/profprof/app/templates/skill/edit.hbs",
+		"/home/bax/Code/projects/profprof/app/styles/.gitkeep",
+		"/home/bax/Code/projects/profprof/app/routes/resumes/create.js",
+		"/home/bax/Code/projects/profprof/app/controllers/resumes/create.js",
+		"/home/bax/Code/projects/profprof/app/templates/components/skill-block-display-array.hbs",
+		"/home/bax/Code/projects/profprof/tests/unit/models/skill/scale-test.js",
+		"/home/bax/Code/projects/profprof/tests/unit/components/skill-block-display-array-test.js",
+		"/home/bax/Code/projects/profprof/app/controllers/skill.js",
+		"/home/bax/Code/projects/profprof/app/router.js",
+		"/home/bax/Code/projects/profprof/app/models/skill/realm.js",
+		"/home/bax/Code/projects/profprof/app/templates/components/skill-toolbox.hbs"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ft",
+			"edit",
+			"name",
+			"realm",
+			"xs-col-12",
+			"unstyled",
+			"col-xs",
+			"+/",
+			"/",
+			"toRelation",
+			"realms",
+			"realm",
+			"thisQuery",
+			"controller",
+			"false",
+			"thisQuery",
+			"indicators",
+			"industries",
+			"industry",
+			"scales",
+			"inRoles",
+			"realm",
+			"nRole",
+			"InRole",
+			"industry",
+			"avail",
+			"availNatures",
+			"avail",
+			"indicator",
+			"realm",
+			"null",
+			"realm",
+			"span",
+			"availableNatures",
+			"item",
+			"industry",
+			"realm",
+			"title",
+			"resume",
+			"shortName",
+			"resume",
+			"description",
+			"realm",
+			"controller",
+			"section",
+			"title",
+			"relation",
+			"getRelationship",
+			"};\n",
+			"relationship",
+			"title:",
+			"tagline",
+			"summary",
+			"summ",
+			"summary",
+			"profile",
+			"profiles",
+			"profile",
+			"button",
+			"arguments",
+			"button",
+			"div",
+			"a",
+			"bar",
+			"camera-retro",
+			"extraAssets",
+			"string",
+			"target",
+			"class",
+			"#",
+			"class",
+			"skillset",
+			"h2",
+			"2",
+			"mainMenuProxy",
+			"textHash",
+			"shortName",
+			"button",
+			"introTexts",
+			"headingFixtures",
+			"heading",
+			"headings",
+			"title",
+			"item",
+			"ArrayController",
+			"titles",
+			"intro",
+			"intros",
+			"summaries",
+			"intros",
+			"heading",
+			"</h2>",
+			"<h2>",
+			"intro",
+			"contents",
+			"nickname",
+			"appDisplayLang",
+			"p",
+			"globalDisplayLanguage",
+			"P",
+			"section",
+			"profex",
+			"academic",
+			"d",
+			"item",
+			"thing",
+			"profesional",
+			"div",
+			"small-4",
+			"This ",
+			"small-4",
+			"\n  ",
+			"0",
+			"level",
+			"nav",
+			"div",
+			"aside",
+			"div",
+			"$",
+			":",
+			"id",
+			"handler",
+			"'sub'",
+			"main",
+			"Post",
+			"css",
+			"cart",
+			"buildStyles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/templates/skills.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/skill.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/mixins/thingie.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/adapters/application.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/routes/skills.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/routes/skill.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "app/controllers/application.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 136.0
+	},
+	"project": "emcv.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"temsk",
+				"app\\templates\\skill.hbs"
+			],
+			[
+				"roski",
+				"app\\routes\\skill.js"
+			],
+			[
+				"routess",
+				"app\\routes\\skills.js"
+			],
+			[
+				"roap",
+				"app\\routes\\application.js"
+			],
+			[
+				"conapp",
+				"app\\controllers\\application.js"
+			],
+			[
+				"plu",
+				"app\\helpers\\tstr-pluralize.js"
+			],
+			[
+				"fstr",
+				"app\\helpers\\fstr-capfirst.js"
+			],
+			[
+				"fs",
+				"app\\helpers\\fstr-capall.js"
+			],
+			[
+				"ada",
+				"app\\adapters\\application.js"
+			],
+			[
+				"controll",
+				"tests\\unit\\controllers\\application-test.js"
+			],
+			[
+				"contr",
+				"app\\controllers\\application.js"
+			],
+			[
+				"router",
+				"app\\router.js"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"envi",
+				"config\\environment.js"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"route",
+				"app\\router.js"
+			],
+			[
+				"bro",
+				"Brocfile.js"
+			],
+			[
+				".embe",
+				".ember-cli"
+			],
+			[
+				"broc",
+				"Brocfile.js"
+			],
+			[
+				"roi",
+				"app\\routes\\index.js"
+			],
+			[
+				"temdi",
+				"app\\templates\\dispatcher.hbs"
+			],
+			[
+				"rodi",
+				"app\\routes\\dispatcher.js"
+			],
+			[
+				"rodis",
+				"app\\routes\\index.js"
+			],
+			[
+				"tea",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"bow",
+				"bower.json"
+			],
+			[
+				"stba",
+				"app\\styles\\_base.scss"
+			],
+			[
+				"plur",
+				"app/helpers/ft-pluralize.js"
+			],
+			[
+				"helpp",
+				"app/helpers/pluralize.js"
+			],
+			[
+				"skm",
+				"app/models/skill/metric.js"
+			],
+			[
+				"moskin",
+				"app/models/skill/indicator.js"
+			],
+			[
+				"modro",
+				"app/models/role.js"
+			],
+			[
+				"modskme",
+				"app/models/skill/metric.js"
+			],
+			[
+				"modks",
+				"app/models/skill/scale.js"
+			],
+			[
+				"modskin",
+				"app/models/skill/indicator.js"
+			],
+			[
+				"mods",
+				"app/models/skill.js"
+			],
+			[
+				"edito",
+				"app/templates/skill/editor.hbs"
+			],
+			[
+				"editor",
+				"app/templates/skill/editor.hbs"
+			],
+			[
+				"rosked",
+				"app/routes/skill/edit.js"
+			],
+			[
+				"consked",
+				"app/controllers/skill/edit.js"
+			],
+			[
+				"temsked",
+				"app/templates/skill/edit.hbs"
+			],
+			[
+				"temskin",
+				"app/templates/skill/index.hbs"
+			],
+			[
+				"bas",
+				"app/styles/_base.scss"
+			],
+			[
+				"supr",
+				"profprof.sublime-project"
+			],
+			[
+				"base",
+				".sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_base.scssc"
+			],
+			[
+				"modin",
+				"app/models/skill/indicator.js"
+			],
+			[
+				"skill",
+				"app/models/skill.js"
+			],
+			[
+				"mosk",
+				"app/models/skill.js"
+			],
+			[
+				"tempskills",
+				"app/templates/skills.hbs"
+			],
+			[
+				"tempapp",
+				"app/templates/application.hbs"
+			],
+			[
+				"roskc",
+				"app/routes/skills/create.js"
+			],
+			[
+				"modelrol",
+				"app/models/role.js"
+			],
+			[
+				"indu",
+				"app/models/industry.js"
+			],
+			[
+				"metric",
+				"app/models/skill/metric.js"
+			],
+			[
+				"skme",
+				"app/models/skill/metric.js"
+			],
+			[
+				"sked",
+				"app/controllers/skill/edit.js"
+			],
+			[
+				"style",
+				"app/styles/_base.scss"
+			],
+			[
+				"temskcr",
+				"app/templates/skills/create.hbs"
+			],
+			[
+				"rouskce",
+				"app/routes/skills/create.js"
+			],
+			[
+				"modski",
+				"app/models/skill.js"
+			],
+			[
+				"modena",
+				"app/models/skill/nature.js"
+			],
+			[
+				"rousk",
+				"app/routes/skills.js"
+			],
+			[
+				"skna",
+				"app/models/skill/nature.js"
+			],
+			[
+				"modesk",
+				"app/models/skill.js"
+			],
+			[
+				"coree",
+				"app/controllers/resume/edit.js"
+			],
+			[
+				"moreti",
+				"app/models/resume/title.js"
+			],
+			[
+				"coned",
+				"app/controllers/profile/edit.js"
+			],
+			[
+				"edit",
+				"app/templates/profile/edit-profile.hbs"
+			],
+			[
+				"temedi",
+				"app/templates/profile/edit-profile.hbs"
+			],
+			[
+				"modtag",
+				"app/models/tagline.js"
+			],
+			[
+				"modpro",
+				"app/models/profile.js"
+			],
+			[
+				"profinde",
+				"app/templates/profiles/index.hbs"
+			],
+			[
+				"templprofin",
+				"app/templates/profile/index.hbs"
+			],
+			[
+				"templatesprofiles",
+				"app/templates/profiles.hbs"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				".ember",
+				".ember-cli"
+			],
+			[
+				"pi",
+				"app/helpers/pick-language.js"
+			],
+			[
+				"help",
+				"tests/test-helper.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"vieapp",
+				"app/views/application.js"
+			],
+			[
+				"controin",
+				"app/controllers/index.js"
+			],
+			[
+				"ropro",
+				"app/routes/profile.js"
+			],
+			[
+				"roinde",
+				"app/routes/index.js"
+			],
+			[
+				"modelshead",
+				"app/models/heading.js"
+			],
+			[
+				"routeapp",
+				"app/routes/application.js"
+			],
+			[
+				"application",
+				"app/templates/application.hbs"
+			],
+			[
+				"pro",
+				"app/models/profile.js"
+			],
+			[
+				"fypin",
+				"app/templates/fyp/index.hbs"
+			],
+			[
+				"menu",
+				"app/models/menu-system.js"
+			],
+			[
+				"inde",
+				"app/templates/index.hbs"
+			],
+			[
+				"founse",
+				"app/styles/_foundation-settings-override.scss"
+			],
+			[
+				"appli",
+				"app/templates/application.hbs"
+			],
+			[
+				"asse",
+				"server/config/assets.json"
+			],
+			[
+				"app",
+				"app/js/controllers/application.js"
+			],
+			[
+				"boo",
+				"server/config/bootstrap.js"
+			],
+			[
+				"pass",
+				"server/config/passport.js"
+			],
+			[
+				"in",
+				"server/views/index.html"
+			],
+			[
+				"emberl",
+				"app/js/controllers/emberlearn.js"
+			],
+			[
+				"head",
+				"server/views/partials/head.html"
+			],
+			[
+				"index.h",
+				"server/views/index.html"
+			],
+			[
+				"tail",
+				"server/views/partials/tail.html"
+			],
+			[
+				"pac",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

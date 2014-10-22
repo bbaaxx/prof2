@@ -1,3 +1,33 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<div id="#application-main-wrapper" {{bind-attr class="showNav"}}>
+  <div id="application-menu-wrapper">
 
-{{outlet}}
+    <div id="application-menu">
+      <ul class="nav nav-pills nav-stacked">
+      {{#each section in mainMenu}}
+        <li class="menu-section-header">
+          {{fstr-capall section.name}}
+        </li>
+        {{#each item in section.items}}
+          <li>{{#link-to item.target}}{{item.name}}{{/link-to}}</li>
+        {{/each}}
+      {{/each}}
+      </ul>
+    </div>
+
+    <button {{action "toggleNav"}} type="button" class="btn btn-primary">
+      <span class="sr-only">Toggle navigation</span>
+      <span><i class="fa fa-bars fa-2x"></i></span>
+    </button>
+
+    <main id="application-inner-wrapper" role="main">
+      <div class="container-fluid">
+        {{outlet}}
+      </div>
+    </main>
+
+    <footer id="application-main-footer">
+      <p>Do we need a footer?</p>
+    </footer>
+
+  </div>
+</div>
