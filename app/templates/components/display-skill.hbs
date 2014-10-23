@@ -1,0 +1,22 @@
+<div class="display-skill bg-info">
+  <h4>{{skill.name}}</h4>
+  {{#each indicator in skill.indicators}}
+  <p class="text-right">
+    {{indicator.value}}
+    {{tstr-pluralize indicator.value indicator.metric.unitName}}
+    {{indicator.name}}
+  </p>
+  <div class="btn-group">
+    {{#link-to 'skill' skill  class="btn btn-xs btn-default"}}
+      <i class="fa fa-eye"></i> details
+    {{/link-to}}
+    {{#link-to 'skill.edit' skill  class="btn btn-xs btn-default"}}
+      <i class="fa fa-pencil"></i> edit
+    {{/link-to}}
+    <a href="#" class="btn btn-xs btn-default" {{action "deleteSkill"}}>
+      <i class="fa fa-trash"></i> delete
+    </a>
+  </div>
+  {{/each}}
+</div>
+{{yield}}
