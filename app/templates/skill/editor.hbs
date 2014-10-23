@@ -1,78 +1,48 @@
 <form role="form">
 
 
-  <div class="row">
-    <div class="form-group">
-      <label for="input-skill-name">Skill Name</label>
-      {{input
-        value=name
-        class="form-control"
-        placeholder="Skill name"
-        id="input-skill-name"
-        }}
-    </div>
+  <div class="form-group">
+    <label for="input-skill-name" class="sr-only">Skill Name</label>
+    {{input
+      value=name
+      class="form-control"
+      placeholder="Skill name"
+      id="input-skill-name"
+      }}
   </div>
 
-  <div class="row">
-    <p>Indicators</p>
-    <ul class="list-unstyled">
+  <ul class="list-unstyled">
+
     {{#if indicators}}
-      {{#each indicator in indicators}}
-      <li>{{indicator.name}}</li>
-      {{/each}}
+    {{#each indicator in indicators}}
+    <li>
+      {{indicator.value}}
+      {{tstr-pluralize indicator.value indicator.metric.unitName}}
+      {{indicator.name}}
+    </li>
+    {{/each}}
     {{/if}}
-      <li><a href="#" {{action "addingIndicator"}}>
-        {{#if indicatorEditor}}
-        <span class="glyphicon glyphicon-minus"></span> cancel
-        {{else}}
-        <span class="glyphicon glyphicon-plus"></span> new indicator
-        {{/if}}
-      </a></li>
-    </ul>
 
-  </div>
+    <li><a href="#" {{action "addingIndicator"}}>
+      {{#if indicatorEditor}}
+      <i class="fa fa-minus"></i> cancel
+      {{else}}
+      <i class="fa fa-plus"></i> new indicator
+      {{/if}}
+    </a></li>
+
+  </ul>
 
   {{#if indicatorEditor}}
-  <div class="row well">
-    <fieldset class="indicatorEditorTransition:disabled:enabled">
-
-      <div class="form-group">
-        {{input
-          class="form-control"
-          value=indicatorContainer.name
-          placeholder="Indicator name"}}
-      </div>
-
-      <div class="form-group">
-        {{input
-          class="form-control"
-          value=indicatorContainer.value
-          placeholder="Indicator value"}}
-      </div>
-
-      <div class="form-group">
-        {{view Ember.Select
-          class="form-control"
-          prompt="pick a metric ..."
-          content=indicatorContainer.availableMetrics
-          optionValuePath="content"
-          optionLabelPath="content.unitName"
-          value=indicatorContainer.metric}}
-      </div>
-
-      <div class="form-group text-right">
-        <button {{action "addIndicator"}} class="btn">Add indicator</button>
-      </div>
-
-    </fieldset>
-  </div>
+  {{editor-indicator indicatorContainer=indicatorContainer action="addIndicator" }}
   {{/if}}
 
-  <div class="row">
-    <div class="form-group">
-      <button {{action "saveModel"}} class="btn btn-success">Done, save it!</button>
-    </div>
+  <div class="form-group">
+    <button {{action "saveModel"}} class="btn btn-success">Done, save it!</button>
   </div>
 
-
 </form>
+
+
+
+

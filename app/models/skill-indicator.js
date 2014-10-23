@@ -3,12 +3,12 @@ import DS from 'ember-data';
 var fixtures = [
   {
     id: 1,
-    name: 'Years using the skill',
+    name: 'development',
     metric: 1,
     value: 3
   }, {
     id: 2,
-    name: 'Projects on which the skill was used',
+    name: 'management',
     metric: 2,
     value: 4
   }

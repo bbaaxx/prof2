@@ -1,0 +1,33 @@
+<div>
+  <fieldset class="indicatorEditorTransition:disabled:enabled">
+    <div class="form-group">
+      {{input
+        class="form-control"
+        value=indicatorContainer.name
+        placeholder="Indicator name"}}
+    </div>
+
+    <div class="form-group">
+      {{input
+        class="form-control"
+        value=indicatorContainer.value
+        placeholder="Indicator value"}}
+    </div>
+
+    <div class="form-group">
+      {{view Ember.Select
+        class="form-control"
+        prompt="pick a metric ..."
+        content=indicatorContainer.availableMetrics
+        optionValuePath="content"
+        optionLabelPath="content.unitName"
+        value=indicatorContainer.metric}}
+    </div>
+
+    <div class="form-group text-right">
+      <button {{action "addIndicator"}} class="btn">Add indicator</button>
+    </div>
+  </fieldset>
+</div>
+
+{{yield}}

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"pos",
+				"position"
+			],
+			[
+				"s",
+				"startDate"
+			],
+			[
+				"pro",
+				"profexp"
+			],
+			[
+				"ind",
+				"indicatorContainer"
+			],
+			[
+				"indi",
+				"IndicatorProxy"
+			],
+			[
+				"in",
+				"indicatorContainer"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -30,10 +54,6 @@
 			[
 				"des",
 				"description"
-			],
-			[
-				"in",
-				"industries"
 			],
 			[
 				"thi",
@@ -102,10 +122,6 @@
 			[
 				"intro",
 				"introTexts"
-			],
-			[
-				"pro",
-				"profileIntros"
 			],
 			[
 				"profile",
@@ -244,10 +260,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/skills.hbs",
+			"file": "app/models/skill.js",
 			"settings":
 			{
-				"buffer_size": 63,
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/skills/index.hbs",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/application.hbs",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/skills/create.hbs",
+			"settings":
+			{
+				"buffer_size": 262,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,50 +295,23 @@
 			"file": "app/templates/skill.hbs",
 			"settings":
 			{
-				"buffer_size": 43,
+				"buffer_size": 155,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "import Ember from 'ember';\n\nexport default Ember.Mixin.create({\n  someProp: null,\n  someCompProp: function(){\n    return 'Some prop is now: ' + this.get('someProp');\n  }.property('someProp')\n});\n",
-			"file": "app/mixins/thingie.js",
-			"file_size": -1,
-			"file_write_time": -1,
+			"file": "app/styles/_module.scss",
 			"settings":
 			{
-				"buffer_size": 195,
+				"buffer_size": 694,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/adapters/application.js",
+			"file": "app/styles/_state.scss",
 			"settings":
 			{
-				"buffer_size": 288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/skills.js",
-			"settings":
-			{
-				"buffer_size": 130,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/skill.js",
-			"settings":
-			{
-				"buffer_size": 153,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/application.js",
-			"settings":
-			{
-				"buffer_size": 207,
+				"buffer_size": 199,
 				"line_ending": "Unix"
 			}
 		}
@@ -314,6 +327,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -327,10 +344,6 @@
 			],
 			[
 				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"remo",
 				"Package Control: Remove Package"
 			],
 			[
@@ -378,7 +391,7 @@
 				"Set Syntax: HTML with mustaches"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -405,53 +418,113 @@
 	[
 		"/S/projects/emcv",
 		"/S/projects/emcv/app",
-		"/S/projects/emcv/app/components",
-		"/S/projects/emcv/app/mixins",
-		"/S/projects/emcv/app/views",
-		"/S/projects/emcv/tests",
-		"/S/projects/emcv/tests/helpers"
+		"/S/projects/emcv/app/controllers",
+		"/S/projects/emcv/app/controllers/skills",
+		"/S/projects/emcv/app/routes",
+		"/S/projects/emcv/app/styles",
+		"/S/projects/emcv/app/templates",
+		"/S/projects/emcv/app/templates/skill",
+		"/S/projects/emcv/app/templates/skills"
 	],
 	"file_history":
 	[
-		"/S/projects/emcv/tests/unit/adapters/application-test.js",
-		"/S/projects/emcv/app/templates/application.hbs",
-		"/S/projects/emcv/app/routes/application.js",
-		"/S/projects/emcv/README.md",
+		"/S/projects/emcv/app/models/education.js",
+		"/S/projects/emcv/app/models/company.js",
+		"/S/projects/emcv/tests/unit/routes/positions-test.js",
+		"/S/projects/emcv/app/routes/position.js",
+		"/S/projects/emcv/app/routes/positions.js",
+		"/S/projects/emcv/app/models/position.js",
+		"/S/projects/emcv/app/templates/position.hbs",
 		"/S/projects/emcv/package.json",
-		"/S/projects/emcv/app/models/skill.js",
+		"/C/Users/Eduardo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/S/projects/emcv/tests/unit/routes/position-test.js",
+		"/S/projects/emcv/tests/unit/routes/positions/create-test.js",
+		"/S/projects/emcv/tests/unit/routes/position/edit-test.js",
+		"/S/projects/emcv/tests/unit/models/skillset-test.js",
 		"/S/projects/emcv/tests/unit/models/skill-test.js",
-		"/S/projects/emcv/testem.json",
+		"/S/projects/emcv/tests/unit/models/skill-indicator-test.js",
+		"/S/projects/emcv/tests/unit/models/profile-test.js",
+		"/S/projects/emcv/tests/unit/models/positionset-test.js",
+		"/S/projects/emcv/tests/unit/models/position-activity-test.js",
+		"/S/projects/emcv/tests/unit/models/educationset-test.js",
+		"/S/projects/emcv/app/models/educationset.js",
+		"/S/projects/emcv/tests/unit/models/education-test.js",
+		"/S/projects/emcv/tests/unit/models/company-test.js",
+		"/S/projects/emcv/app/routes/application.js",
+		"/S/projects/emcv/app/templates/positions/index.hbs",
+		"/S/projects/emcv/tests/unit/models/position-test.js",
+		"/S/projects/emcv/tests/unit/models/education-qualification-test.js",
+		"/S/projects/emcv/app/models/positionset.js",
+		"/S/projects/emcv/app/models/profile.js",
+		"/S/projects/emcv/app/models/skill.js",
 		"/S/projects/emcv/app/router.js",
+		"/S/projects/emcv/app/routes/skills/create.js",
+		"/S/projects/emcv/README.md",
+		"/S/projects/emcv/app/adapters/application.js",
+		"/S/projects/emcv/app/models/position-activity.js",
+		"/S/projects/emcv/app/templates/profexp/details.hbs",
+		"/S/projects/emcv/app/models/profexp.js",
+		"/S/projects/emcv/app/helpers/tdat-monthyear.js",
+		"/S/projects/emcv/app/helpers/fstr-capfirst.js",
+		"/S/projects/emcv/app/helpers/fstr-capall.js",
+		"/S/projects/emcv/app/helpers/.gitkeep",
+		"/S/projects/emcv/tests/unit/helpers/tstr-pluralize-test.js",
+		"/S/projects/emcv/app/helpers/tstr-pluralize.js",
+		"/S/projects/emcv/tests/test-helper.js",
+		"/S/projects/emcv/app/models/skill-metric.js",
+		"/S/projects/emcv/app/models/.gitkeep",
+		"/S/projects/emcv/app/models/skillset.js",
+		"/S/projects/emcv/app/models/education-qualification.js",
+		"/S/projects/emcv/app/models/profexp-activity.js",
+		"/S/projects/emcv/app/models/profexpset.js",
+		"/S/projects/emcv/app/models/skill-indicator.js",
+		"/S/projects/emcv/app/controllers/skills/create.js",
+		"/S/projects/emcv/app/routes/profexp.js",
+		"/S/projects/emcv/app/routes/skills.js",
+		"/S/projects/emcv/app/routes/profexps.js",
+		"/S/projects/emcv/app/templates/skill/editor.hbs",
+		"/S/projects/emcv/app/routes/skill/edit.js",
+		"/S/projects/emcv/app/styles/_module.scss",
+		"/S/projects/emcv/app/templates/profexps/index.hbs",
+		"/S/projects/emcv/app/templates/profexp.hbs",
+		"/S/projects/emcv/app/routes/profexp/edit.js",
+		"/S/projects/emcv/app/templates/application.hbs",
+		"/S/projects/emcv/app/templates/skills/index.hbs",
+		"/S/projects/emcv/app/templates/skills/create.hbs",
+		"/S/projects/emcv/dist/crossdomain.xml",
+		"/S/projects/emcv/app/controllers/application.js",
+		"/S/projects/emcv/app/routes/skill.js",
+		"/S/projects/emcv/app/templates/skills.hbs",
+		"/S/projects/emcv/app/templates/skill.hbs",
+		"/S/projects/emcv/app/templates/.gitkeep",
+		"/S/projects/emcv/app/templates/skill/details.hbs",
+		"/S/projects/emcv/app/templates/skill/edit.hbs",
 		"/S/projects/emcv/app/styles/_base.scss",
+		"/S/projects/emcv/config/environment.js",
+		"/S/projects/emcv/dist/tests/index.html",
+		"/S/projects/emcv/tests/index.html",
+		"/S/projects/emcv/dist/index.html",
+		"/S/projects/emcv/app/index.html",
+		"/S/projects/emcv/Brocfile.js",
+		"/S/projects/emcv/app/app.js",
+		"/S/projects/emcv/tests/unit/routes/skills-test.js",
+		"/S/projects/emcv/tests/unit/routes/skill-test.js",
+		"/S/projects/emcv/app/mixins/thingie.js",
+		"/S/projects/emcv/tests/unit/adapters/application-test.js",
+		"/S/projects/emcv/testem.json",
 		"/S/projects/emcv/tests/unit/controllers/application-test.js",
 		"/S/projects/emcv/tests/unit/helpers/fstr-capall-test.js",
 		"/S/projects/emcv/tests/unit/helpers/fstr-capfirst-test.js",
-		"/S/projects/emcv/tests/unit/helpers/tstr-pluralize-test.js",
 		"/S/projects/emcv/tests/unit/routes/application-test.js",
-		"/S/projects/emcv/tests/unit/routes/skills-test.js",
-		"/S/projects/emcv/config/environment.js",
 		"/S/projects/emcv/emcv.sublime-project",
-		"/S/projects/emcv/app/models/.gitkeep",
-		"/S/projects/emcv/app/styles/_module.scss",
-		"/S/projects/emcv/app/helpers/tstr-pluralize.js",
-		"/S/projects/emcv/app/helpers/fstr-capall.js",
-		"/S/projects/emcv/app/helpers/fstr-capfirst.js",
 		"/S/projects/emcv/dist/.gitkeep",
-		"/S/projects/emcv/app/app.js",
-		"/S/projects/emcv/app/controllers/application.js",
-		"/S/projects/emcv/app/templates/skills.hbs",
 		"/S/projects/emcv/app/controllers/.gitkeep",
 		"/S/projects/emcv/.editorconfig",
-		"/S/projects/emcv/dist/crossdomain.xml",
 		"/S/projects/emcv/bower.json",
-		"/S/projects/emcv/Brocfile.js",
-		"/S/projects/emcv/app/adapters/application.js",
-		"/S/projects/emcv/app/routes/skills.js",
 		"/S/projects/emcv/.ember-cli",
 		"/S/projects/emcv/app/routes/index.js",
 		"/S/projects/emcv/app/templates/index.hbs",
 		"/S/projects/emcv/app/styles/_state.scss",
-		"/C/Users/Eduardo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Eduardo/Desktop/Brushed/Template/brushed/index.html",
 		"/S/projects/emcv/app/routes/dispatcher.js",
 		"/S/projects/emcv/app/templates/dispatcher.hbs",
@@ -482,65 +555,7 @@
 		"/Z/projects/profprof/app/adapters/application.js",
 		"/home/bax/Code/projects/profprof/package.json",
 		"/home/bax/Code/projects/profprof/app/templates/components/skill-display-full.hbs",
-		"/home/bax/Code/projects/profprof/app/models/skill/indicator.js",
-		"/home/bax/Code/projects/profprof/app/models/skill/metric.js",
-		"/home/bax/Code/projects/profprof/app/helpers/ft-pluralize.js",
-		"/home/bax/Code/projects/profprof/app/helpers/pluralize.js",
-		"/home/bax/Code/projects/profprof/tests/test-helper.js",
-		"/home/bax/Code/projects/profprof/tests/unit/models/skill/metric-test.js",
-		"/home/bax/Code/projects/profprof/app/models/skill.js",
-		"/home/bax/Code/projects/profprof/dist/assets/fonts/fontawesome-webfont.woff",
-		"/home/bax/Code/projects/profprof/app/models/role.js",
-		"/home/bax/Code/projects/profprof/app/templates/skill/edit-skill.hbs",
-		"/home/bax/Code/projects/profprof/app/models/resume.js",
-		"/home/bax/Code/projects/profprof/app/models/skill/scale.js",
-		"/home/bax/Code/projects/profprof/tests/unit/models/skill-test.js",
-		"/home/bax/Code/projects/profprof/app/templates/skill/details.hbs",
-		"/home/bax/Code/projects/profprof/app/templates/application.hbs",
-		"/home/bax/Code/projects/profprof/app/templates/skill/editor.hbs",
-		"/home/bax/Code/projects/profprof/config/environment.js",
-		"/home/bax/Code/projects/profprof/app/controllers/skill/edit.js",
-		"/home/bax/Code/projects/profprof/app/routes/skill.js",
-		"/home/bax/Code/projects/profprof/README.md",
-		"/home/bax/Code/projects/profprof/app/controllers/resume/edit.js",
-		"/home/bax/Code/projects/profprof/testem.json",
-		"/home/bax/Code/projects/profprof/app/templates/skills.hbs",
-		"/home/bax/Code/projects/profprof/app/templates/skills/index.hbs",
-		"/home/bax/Code/projects/profprof/app/templates/skill/index.hbs",
-		"/home/bax/Code/projects/profprof/tests/unit/models/skill/indicator-test.js",
-		"/home/bax/Code/projects/profprof/app/styles/_base.scss",
-		"/home/bax/Code/projects/profprof/bower.json",
-		"/home/bax/Code/projects/profprof/profprof.sublime-project",
-		"/home/bax/Code/projects/profprof/.sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_base.scssc",
-		"/home/bax/Code/projects/profprof/dist/assets/test-support.css",
-		"/home/bax/Code/projects/profprof/tests/unit/models/industry-test.js",
-		"/home/bax/Code/projects/profprof/app/models/industry.js",
-		"/home/bax/Code/projects/profprof/app/templates/skill.hbs",
-		"/home/bax/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
-		"/home/bax/Code/projects/profprof/app/templates/skill/display-skill.hbs",
-		"/home/bax/Code/projects/profprof/app/routes/skill/edit.js",
-		"/home/bax/Code/projects/profprof/app/routes/skills.js",
-		"/home/bax/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/bax/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/bax/Code/projects/profprof/app/components/skill-toolbox.js",
-		"/home/bax/Code/projects/profprof/dist/assets/bootstrap/glyphicons-halflings-regular.svg",
-		"/home/bax/Code/projects/profprof/.editorconfig",
-		"/home/bax/Code/projects/profprof/app/templates/skills/create.hbs",
-		"/home/bax/Code/projects/profprof/app/routes/skills/create.js",
-		"/home/bax/Code/projects/profprof/app/models/skill/nature.js",
-		"/home/bax/Code/projects/profprof/app/templates/index.hbs",
-		"/home/bax/Code/projects/profprof/.sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_module.scssc",
-		"/home/bax/Code/projects/profprof/app/templates/skill/edit.hbs",
-		"/home/bax/Code/projects/profprof/app/styles/.gitkeep",
-		"/home/bax/Code/projects/profprof/app/routes/resumes/create.js",
-		"/home/bax/Code/projects/profprof/app/controllers/resumes/create.js",
-		"/home/bax/Code/projects/profprof/app/templates/components/skill-block-display-array.hbs",
-		"/home/bax/Code/projects/profprof/tests/unit/models/skill/scale-test.js",
-		"/home/bax/Code/projects/profprof/tests/unit/components/skill-block-display-array-test.js",
-		"/home/bax/Code/projects/profprof/app/controllers/skill.js",
-		"/home/bax/Code/projects/profprof/app/router.js",
-		"/home/bax/Code/projects/profprof/app/models/skill/realm.js",
-		"/home/bax/Code/projects/profprof/app/templates/components/skill-toolbox.hbs"
+		"/home/bax/Code/projects/profprof/app/models/skill/indicator.js"
 	],
 	"find":
 	{
@@ -558,6 +573,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"300",
+			"rofexp",
+			"profexp",
+			"skill",
+			"input",
+			"Name",
+			"label",
+			"metricChoice",
+			"this",
+			"text",
+			"metrics",
+			"indicators",
 			"ft",
 			"edit",
 			"name",
@@ -673,19 +700,7 @@
 			"0",
 			"level",
 			"nav",
-			"div",
-			"aside",
-			"div",
-			"$",
-			":",
-			"id",
-			"handler",
-			"'sub'",
-			"main",
-			"Post",
-			"css",
-			"cart",
-			"buildStyles"
+			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -708,130 +723,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/skills.hbs",
+					"file": "app/models/skill.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 63,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								483,
+								483
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -840,24 +751,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/templates/skill.hbs",
+					"file": "app/templates/skills/index.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 43,
+						"buffer_size": 666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43,
-								43
+								579,
+								579
 							]
 						],
 						"settings":
@@ -982,19 +893,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/mixins/thingie.js",
+					"file": "app/templates/application.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								916,
+								916
 							]
 						],
 						"settings":
@@ -1105,7 +1016,353 @@
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
 							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/templates/skills/create.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/templates/skill.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "app/styles/_module.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/styles/_state.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -1120,563 +1377,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "app/adapters/application.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								55,
-								55
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/routes/skills.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/routes/skill.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 6,
-					"file": "app/controllers/application.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								191,
-								191
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1745,12 +1447,148 @@
 		"selected_items":
 		[
 			[
-				"temsk",
-				"app\\templates\\skill.hbs"
+				"modsk",
+				"app\\models\\skill.js"
+			],
+			[
+				"po",
+				"app\\models\\position.js"
+			],
+			[
+				"roapp",
+				"app\\routes\\application.js"
+			],
+			[
+				"router",
+				"app\\router.js"
+			],
+			[
+				"help",
+				"app\\helpers\\tdat-monthyear.js"
+			],
+			[
+				"mopro",
+				"app\\models\\profexp.js"
+			],
+			[
+				"moco",
+				"app\\models\\company.js"
+			],
+			[
+				"modelcomp",
+				"app\\models\\company.js"
+			],
+			[
+				"modelpro",
+				"app\\models\\profexp.js"
+			],
+			[
+				"moprofe",
+				"app\\models\\profexp.js"
+			],
+			[
+				"ski",
+				"app\\models\\skill.js"
+			],
+			[
+				"modski",
+				"app\\models\\skill.js"
+			],
+			[
+				"modskin",
+				"app\\models\\skill-indicator.js"
+			],
+			[
+				"moded",
+				"app\\models\\education.js"
+			],
+			[
+				"modpro",
+				"app\\models\\profexp.js"
+			],
+			[
+				"educationse",
+				"app\\models\\educationset.js"
+			],
+			[
+				"modco",
+				"app\\models\\company.js"
+			],
+			[
+				"modprofe",
+				"app\\models\\profexpset.js"
+			],
+			[
+				"modskil",
+				"app\\models\\skillset.js"
+			],
+			[
+				"mome",
+				"app\\models\\skill-metric.js"
+			],
+			[
+				"modin",
+				"app\\models\\skill-indicator.js"
+			],
+			[
+				"ropr",
+				"app\\routes\\profexp.js"
+			],
+			[
+				"rocr",
+				"app\\routes\\skills\\create.js"
+			],
+			[
+				"sked",
+				"app\\templates\\skill\\editor.hbs"
+			],
+			[
+				"creat",
+				"app\\templates\\skills\\create.hbs"
+			],
+			[
+				"modesk",
+				"app\\models\\skill.js"
 			],
 			[
 				"roski",
-				"app\\routes\\skill.js"
+				"app\\routes\\skills.js"
+			],
+			[
+				"temskin",
+				"app\\templates\\skills\\index.hbs"
+			],
+			[
+				"templa",
+				"app\\templates\\skills.hbs"
+			],
+			[
+				"temapp",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"edi",
+				"app\\routes\\skill\\edit.js"
+			],
+			[
+				"ind",
+				"app\\models\\skill-indicator.js"
+			],
+			[
+				"bro",
+				"Brocfile.js"
+			],
+			[
+				"tempap",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"rosj",
+				"app\\routes\\skills\\create.js"
+			],
+			[
+				"temsk",
+				"app\\templates\\skill.hbs"
 			],
 			[
 				"routess",
@@ -1789,10 +1627,6 @@
 				"app\\controllers\\application.js"
 			],
 			[
-				"router",
-				"app\\router.js"
-			],
-			[
 				"pa",
 				"package.json"
 			],
@@ -1807,10 +1641,6 @@
 			[
 				"route",
 				"app\\router.js"
-			],
-			[
-				"bro",
-				"Brocfile.js"
 			],
 			[
 				".embe",
@@ -1877,10 +1707,6 @@
 				"app/models/skill/scale.js"
 			],
 			[
-				"modskin",
-				"app/models/skill/indicator.js"
-			],
-			[
 				"mods",
 				"app/models/skill.js"
 			],
@@ -1905,10 +1731,6 @@
 				"app/templates/skill/edit.hbs"
 			],
 			[
-				"temskin",
-				"app/templates/skill/index.hbs"
-			],
-			[
 				"bas",
 				"app/styles/_base.scss"
 			],
@@ -1919,10 +1741,6 @@
 			[
 				"base",
 				".sass-cache/2ef1f9036b864f310932ff7d5df1e2b114103a1a/_base.scssc"
-			],
-			[
-				"modin",
-				"app/models/skill/indicator.js"
 			],
 			[
 				"skill",
@@ -1961,10 +1779,6 @@
 				"app/models/skill/metric.js"
 			],
 			[
-				"sked",
-				"app/controllers/skill/edit.js"
-			],
-			[
 				"style",
 				"app/styles/_base.scss"
 			],
@@ -1977,10 +1791,6 @@
 				"app/routes/skills/create.js"
 			],
 			[
-				"modski",
-				"app/models/skill.js"
-			],
-			[
 				"modena",
 				"app/models/skill/nature.js"
 			],
@@ -1991,10 +1801,6 @@
 			[
 				"skna",
 				"app/models/skill/nature.js"
-			],
-			[
-				"modesk",
-				"app/models/skill.js"
 			],
 			[
 				"coree",
@@ -2021,10 +1827,6 @@
 				"app/models/tagline.js"
 			],
 			[
-				"modpro",
-				"app/models/profile.js"
-			],
-			[
 				"profinde",
 				"app/templates/profiles/index.hbs"
 			],
@@ -2047,10 +1849,6 @@
 			[
 				"pi",
 				"app/helpers/pick-language.js"
-			],
-			[
-				"help",
-				"tests/test-helper.js"
 			],
 			[
 				"pack",
@@ -2171,7 +1969,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
