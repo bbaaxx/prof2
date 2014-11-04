@@ -6,7 +6,7 @@
 
 <div class="row">
   <div class="col-xs-12">
-    <h3>{{positionName}} <small>- {{title}}</small></h3>
+    <h3>{{name}} <small>- {{tagline}}</small></h3>
     <p><em>for <strong>{{company.name}}</strong> </em></p>
     <p><small>from <strong>{{tdat-monthyear startDate}}</strong> to <strong>{{tdat-monthyear endDate}}</strong></small></p>
   </div>
@@ -19,7 +19,8 @@
   </div>
   <div class="col-xs-12">
     {{#each activity in activities}}
-      {{activity.shortDescription}}
+      {{activity.name}}
+      {{activity.description}}
     {{/each}}
   </div>
 </div>

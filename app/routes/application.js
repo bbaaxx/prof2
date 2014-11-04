@@ -6,14 +6,14 @@ var mainMenu = Ember.ArrayProxy.create().set('content', [
     items: [
       {name:'skill portal', target:'skills'},
       {name:'browse skills', target:'skills'},
-      {name:'create a skill', target:'skills.create'},
+      {name:'add skills', target:'skills.create'},
     ]
   },{
-    name: 'professional experience',
+    name: 'positions',
     items: [
-      {name:'professional experience portal', target:'positions'},
-      {name:'browse professional experience', target:'positions'},
-      {name:'add professional experience', target:'positions.create'},
+      {name:'positions portal', target:'positions'},
+      {name:'browse positions', target:'positions'},
+      {name:'add positions', target:'positions.create'},
 
     ]
   }

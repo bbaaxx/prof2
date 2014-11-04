@@ -22,5 +22,6 @@
 // App styles
 // SMACSS like structure: http://webuild.envato.com/blog/how-to-scale-and-maintain-legacy-css-with-sass-and-smacss/
   @import 'base';
+  @import 'component';
   @import 'module';
   @import 'state';

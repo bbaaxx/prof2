@@ -1,8 +1,8 @@
 /* global require, module */
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app'),
-  pickFiles = require('broccoli-static-compiler'),
-  mergeTrees = require('broccoli-merge-trees');
+    pickFiles = require('broccoli-static-compiler'),
+    mergeTrees = require('broccoli-merge-trees');
 
 var app = new EmberApp();
 
@@ -20,6 +20,7 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 app.import('bower_components/moment/min/moment.min.js');
+app.import('bower_components/pikaday/pikaday.js');
 app.import('bower_components/showdown/compressed/showdown.js');
 app.import('bower_components/emberfire/dist/emberfire.min.js');
 
