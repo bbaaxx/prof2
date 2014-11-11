@@ -1,33 +1,44 @@
 import Ember from 'ember';
 
-var mainMenu = Ember.ArrayProxy.create().set('content', [
-  {
+var mainMenu = Ember.ArrayProxy.create()
+  .set('content', [{
     name: 'skills',
     items: [
       {name:'skill portal', target:'skills'},
       {name:'browse skills', target:'skills'},
-      {name:'create a skill', target:'skills.create'},
+      {name:'add skills', target:'skills.create'},
     ]
   },{
-    name: 'professional experience',
+    name: 'positions',
     items: [
-      {name:'professional experience portal', target:'positions'},
-      {name:'browse professional experience', target:'positions'},
-      {name:'add professional experience', target:'positions.create'},
-
+      {name:'positions portal', target:'positions'},
+      {name:'browse positions', target:'positions'},
+      {name:'add positions', target:'positions.create'},
     ]
-  }
-]);
+  }]);
+var currentUser = Ember.Object.create({
+  firstName: 'Eduardo',
+  lastName: 'Mosqueda'
+}).reopen({
+  fullName: function(){
+    return this.get('firstName') + ' ' + this.get('lastName');
+  }.property('firstName','lastName'),
+});
+var options = Ember.Object.create({
+  fluidLayout: true
+});
 
 export default Ember.Route.extend({
 
-  setupController: function (controller,model) {
-    this._super(controller,model);
-    controller.set('showNav', false);
-    controller.set('mainMenu', mainMenu);
+  model: function(){
+    return Ember.Object.create({
+      mainMenu: mainMenu,
+      user: currentUser,
+      options: options
+    });
   },
-
   actions: {
+    // TODO: I don't like this here.
     willTransition: function () {
       if ( this.controller.get('showNav') ) {
         this.controller.set('showNav', false);

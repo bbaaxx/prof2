@@ -7,7 +7,6 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 
-
   this.route('index', {path:'/'});
 
   this.resource('skills', function() {
@@ -24,6 +23,12 @@ Router.map(function() {
     this.route('create');
   });
 
+  this.resource('profiles', function() {
+    this.resource('profile', { path: 'profiles/:profile_id' }, function() {
+      this.route('edit');
+    });
+    this.route('create');
+  });
 });
 
 export default Router;

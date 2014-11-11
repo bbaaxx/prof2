@@ -1,4 +1,3 @@
-/*global moment */
 import Ember from 'ember';
 
 export function tdatMonthyear(date) {

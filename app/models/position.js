@@ -3,15 +3,15 @@ import DS from 'ember-data';
 var fixtures = [
   {
     id: 1,
-    title: 'HW/SW Helpdesk support for end-users in LATAM and the Caribbean',
-    positionName: 'IT helpdesk engineer (Tier II)',
+    name: 'IT helpdesk engineer (Tier II)',
+    tagline: 'HW/SW Helpdesk support for end-users in LATAM and the Caribbean',
     startDate: new Date('1/1/2001'),
     endDate: new Date('2/2/2002'),
     company: 1
   }, {
     id: 2,
-    title: 'Networking remote support for Cisco Systems clients around the globe',
-    positionName: 'Network Support Engineer',
+    name: 'Network Support Engineer',
+    tagline: 'Networking remote support for Cisco Systems clients around the globe',
     startDate: new Date('3/3/2003'),
     endDate: new Date('4/4/2004'),
     company: 2
@@ -20,12 +20,16 @@ var fixtures = [
 
 export default DS.Model.extend({
 
-  title:          DS.attr('string'),
-  positionName:   DS.attr('string'),
+  name:           DS.attr('string'),
+  tagline:        DS.attr('string'),
   startDate:      DS.attr('date'),
   endDate:        DS.attr('date'),
-  positionsets:   DS.hasMany('positionset', {async:true}),
+  company:        DS.belongsTo('company', {async:true}),
   activities:     DS.hasMany('position-activity', {async:true}),
-  company:        DS.belongsTo('company', {async:true})
+  positionsets:   DS.hasMany('positionset', {async:true}),
+
+  allCompanies: function(){
+    return this.store.findAll('company');
+  }.property(),
 
 }).reopenClass({FIXTURES:fixtures});

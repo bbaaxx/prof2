@@ -1,31 +1,19 @@
-<div class="row">
-  <div class="col-xs-12">
-    <h2>Skills portal</h2>
-  </div>
-</div>
+<h1>All skills</h1>
 
 <div class="row">
 {{#each}}
-
-  <div class="col-xs-6 skill-badge">
-    <h4>{{name}}</h4>
-    <ul class="list-unstyled">
-    {{#each indicator in indicators}}
-      <li>
-        <h5>{{indicator.name}}</h5>
-        <p>{{indicator.value}} {{tstr-pluralize indicator.value indicator.metric.unitName}}</p>
-      </li>
-    {{/each}}
-    </ul>
-    {{#link-to "skill.edit" this}}Edit this skill{{/link-to}}
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    {{display-skill skill=this delete="deleteSkill"}}
   </div>
-
 {{/each}}
 </div>
 
+<hr>
+
 <div class="row">
-  <div class="col-xs-12">
-    {{#link-to "skills.create"}}<span class="glyphicon glyphicon-plus"></span>Add a skill{{/link-to}}
+  <div class="col-xs-12 text-center">
+    {{#link-to "skills.create" class="btn btn-success btn-md"}}
+    <i class="fa fa-plus"></i> New skill
+    {{/link-to}}
   </div>
 </div>
-

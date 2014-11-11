@@ -1,0 +1,10 @@
+{{yield}}
+{{#if filteredResults}}
+<div class="live-search-wrapper">
+  <ul class="list-unstyled">
+    {{#each result in filteredResults}}
+      <li>{{result.name}}</li>
+    {{/each}}
+  </ul>
+</div>
+{{/if}}

@@ -1,12 +1,11 @@
-<div class="row">
-  <div class="col-xs-12">
-    <h2>All professional experience items</h2>
-  </div>
-</div>
-<div class="row">
-  {{#each}}
-  <div class="col-xs-12">
-    {{#link-to 'position' this}}{{positionName}}{{/link-to}}
-  </div>
-  {{/each}}
-</div>
+<h2>All positions</h2>
+
+<ul class="list-unstyled">
+{{#each}}
+  <li>{{#link-to 'position' this}}{{name}}{{/link-to}}</li>
+{{/each}}
+</ul>
+
+{{#link-to 'positions.create' class="btn btn-success"}}
+  <i class="fa fa-plus"></i> Add a position
+{{/link-to}}
