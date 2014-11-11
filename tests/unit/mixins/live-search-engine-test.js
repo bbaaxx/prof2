@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import LiveSearchEngineMixin from 'emcv/mixins/live-search-engine';
+import LiveSearchEngineMixin from 'prof2/mixins/live-search-engine';
 
 module('LiveSearchEngineMixin');
 
