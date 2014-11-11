@@ -1,6 +1,6 @@
 import {
   fstrCapfirst
-} from 'emcv/helpers/fstr-capfirst';
+} from 'prof2/helpers/fstr-capfirst';
 
 module('FstrCapfirstHelper');
 

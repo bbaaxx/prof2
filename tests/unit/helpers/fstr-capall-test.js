@@ -1,6 +1,6 @@
 import {
   fstrCapall
-} from 'emcv/helpers/fstr-capall';
+} from 'prof2/helpers/fstr-capall';
 
 module('FstrCapallHelper');
 
