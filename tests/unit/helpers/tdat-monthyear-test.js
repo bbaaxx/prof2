@@ -1,6 +1,6 @@
 import {
   tdatMonthyear
-} from 'emcv/helpers/tdat-monthyear';
+} from 'prof2/helpers/tdat-monthyear';
 
 module('TdatMonthyearHelper');
 

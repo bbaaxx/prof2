@@ -1,6 +1,6 @@
 import {
   tstrPluralize
-} from 'emcv/helpers/tstr-pluralize';
+} from 'prof2/helpers/tstr-pluralize';
 
 module('TstrPluralizeHelper');
 
