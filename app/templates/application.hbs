@@ -8,26 +8,24 @@
           {{fstr-capall section.name}}
         </li>
         {{#each item in section.items}}
-          <li>{{#link-to item.target}}{{item.name}}{{/link-to}}</li>
+        <li>
+          {{#link-to item.target}}{{item.name}}{{/link-to}}
+        </li>
         {{/each}}
       {{/each}}
       </ul>
-    </nav>
+    </nav>{{!main menu}}
 
-    <button {{action "toggleNav"}} type="button" class="btn btn-primary">
+    <button {{action "toggleNav"}} type="button" class="btn btn-primary" id="main-menu-button">
       <span class="sr-only">Toggle navigation</span>
       <span><i class="fa fa-bars fa-2x"></i></span>
     </button>
 
     <main id="application-inner-wrapper" role="main">
-      <div class="container-fluid">
+      <div {{bind-attr class="options.fluidLayout:container-fluid:container"}}>
         {{outlet}}
       </div>
     </main>
-
-    <footer id="application-main-footer">
-      <p>Do we need a footer?</p>
-    </footer>
 
   </div>
 </div>

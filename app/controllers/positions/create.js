@@ -3,6 +3,8 @@ import LiveSearchEngine from '../../mixins/live-search-engine';
 
 export default Ember.Controller.extend(LiveSearchEngine, {
 
+  linkingCompany: false,
+
   // TODO: improve with observers
   companySearchBox: function(key,value){
     if (this.get('model.company.id')) {
@@ -25,7 +27,13 @@ export default Ember.Controller.extend(LiveSearchEngine, {
     newActivity: function() {
       this.get('model.activities')
         .pushObject(this.store.createRecord('position-activity'));
-    }
+    },
+    beginLinkingCompany: function(){
+      this.toggleProperty('linkingCompany');
+      if ( this.get('linkingCompany') ) {
+
+      }
+    },
   }
 
 

@@ -35,12 +35,19 @@
     </div>
   </div> {{! dates }}
 
+  <hr>
   <div class="form-group">
+    {{#unless linkingCompany}}
+    <button class="btn btn-default" {{action "beginLinkingCompany"}}>Link a company</button>
+    {{else}}
     {{input
       value=companySearchBox
       class="form-control"
       placeholder="Company"
     }}
+    <button class="btn btn-success form-control" {{action "beginLinkingCompany"}}>Looks good</button>
+    {{/unless}}
+
     {{#unless model.company.id}}
     {{#if companySearchResults}}
     <div class="live-search-results">
@@ -58,8 +65,13 @@
     {{/if}}
     {{/unless}}
   </div> {{! company }}
-
   <hr>
+
+  <div class="form-group">
+    {{input
+      class="form-control"
+    }}
+  </div>
 
   {{#each activity in model.activities}}
   <fieldset>
@@ -69,14 +81,14 @@
       {{input
         value=activity.name
         class="form-control"
-        placeholder="Short description"
+        placeholder="Activity Name"
       }}
     </div>
     <div class="form-group">
       {{input
         value=activity.description
         class="form-control"
-        placeholder="Full description"
+        placeholder="Description"
       }}
     </div>
     <div class="form-group">
