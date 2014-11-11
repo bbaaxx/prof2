@@ -1,5 +1,6 @@
 # prof^2 
-[![wercker status](https://app.wercker.com/status/31af42c99e83f991de77c7be5e2bc4ae/s "wercker status")](https://app.wercker.com/project/bykey/31af42c99e83f991de77c7be5e2bc4ae) | [![Build Status](https://travis-ci.org/bbaaxx/prof2.svg)](https://travis-ci.org/bbaaxx/prof2) | [![Dependency Status](https://david-dm.org/bbaaxx/prof2.svg)](https://david-dm.org/bbaaxx/prof2)
+[![wercker status](https://app.wercker.com/status/31af42c99e83f991de77c7be5e2bc4ae/s "wercker status")](https://app.wercker.com/project/bykey/31af42c99e83f991de77c7be5e2bc4ae) | [![Build Status](https://travis-ci.org/bbaaxx/prof2.svg)](https://travis-ci.org/bbaaxx/prof2) | [![DevDependency Status](https://david-dm.org/bbaaxx/prof2/dev-status.svg?theme=shields.io)](https://david-dm.org/bbaaxx/prof2)
+
 ## An ember-cli based app for managing and presenting your professional profile.
 
 prof2 (short for *prof*essional *prof*iles) is an ember application to build, manage and present
