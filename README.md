@@ -1,9 +1,18 @@
-# prof^2
+# prof^2 
+[![wercker status](https://app.wercker.com/status/31af42c99e83f991de77c7be5e2bc4ae/s "wercker status")](https://app.wercker.com/project/bykey/31af42c99e83f991de77c7be5e2bc4ae) | [![Build Status](https://travis-ci.org/bbaaxx/prof2.svg)](https://travis-ci.org/bbaaxx/prof2) | [![Dependency Status](https://david-dm.org/bbaaxx/prof2.svg)](https://david-dm.org/bbaaxx/prof2)
 ## An ember-cli based app for managing and presenting your professional profile.
 
-Profprof is the best name I could come with for this app because it manages professional profiles using an approach
-that will enable an HR recruiter (like my girlfriend) to visualize all the aspects of a professional helping them identify one
-or many functional roles for a given profile. This is particularly useful for professionals that qualify for many roles within an organization, something that is becoming more and more common these days, and is particularly true for IT professionals.
+prof2 (short for *prof*essional *prof*iles) is an ember application to build, manage and present
+information about your professional career. It's main objective is to allow the user to generate
+views (resumes) of this information that can be easily consulted by recruiters and HR staff.
+
+The aim of this app is to provide an intuitive guide to build a professional profile taking 
+in consideration cases where a professional amasses a large collection of skills and experiences
+that when combined into different skillsets and experiencesets will derive into the full range of possible
+job roles for a given person.
+
+An example of this would be the case of a developer that has experience with javascript development for
+the frontend but also has experience and skills that can be used for an ITIL-CI position.
 
 ### Prerequisites
 
