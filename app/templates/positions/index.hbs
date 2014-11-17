@@ -1,10 +1,12 @@
-<h2>All positions</h2>
+<h1>All positions</h1>
 
-<ul class="list-unstyled">
+<div class="row">
 {{#each}}
-  <li>{{#link-to 'position' this}}{{name}}{{/link-to}}</li>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    {{view "position-display" displayMode="mini" position=this}}
+  </div>
 {{/each}}
-</ul>
+</div>
 
 {{#link-to 'positions.create' class="btn btn-success"}}
   <i class="fa fa-plus"></i> Add a position

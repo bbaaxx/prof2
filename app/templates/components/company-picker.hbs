@@ -1,0 +1,14 @@
+{{yield}}
+<div class="company-picker">
+  {{input value=searchString
+    class="form-control"
+    placeholder="Search companies"
+  }}
+  <ul class="list-unstyled">
+  {{#each company in searchResults}}
+    <li>{{company.name}}
+    <a href="" {{action "linkCompany" company}}>Select this</a>
+    </li>
+  {{/each}}
+  </ul>
+</div>

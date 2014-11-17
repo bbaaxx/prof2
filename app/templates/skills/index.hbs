@@ -3,7 +3,7 @@
 <div class="row">
 {{#each}}
   <div class="col-xs-12 col-sm-6 col-md-4">
-    {{display-skill skill=this delete="deleteSkill"}}
+    {{view "skill-display" displayMode="mini" skill=this}}
   </div>
 {{/each}}
 </div>

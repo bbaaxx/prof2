@@ -1,0 +1,17 @@
+{{#if view.skill.name}}
+<h1>{{view.skill.name}}</h1>
+{{else}}
+<p class="text-warning"><small>Please name this skill</small></p>
+{{/if}}
+
+{{#if view.skill.indicators}}
+<ul class="list-unstyled">
+{{#each indicator in view.skill.indicators}}
+  <li>
+    {{indicator.value}} {{tstr-pluralize indicator.value indicator.metric.unitName}} {{indicator.name}} experience
+  </li>
+{{/each}}
+</ul>
+{{else}}
+<p class="text-warning"><small>Please add some indicators</small></p>
+{{/if}}

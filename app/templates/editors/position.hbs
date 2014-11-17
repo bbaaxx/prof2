@@ -1,0 +1,87 @@
+<form role="form">
+
+  <div class="form-group">
+    {{input
+      value=model.name
+      class="form-control"
+      placeholder="Position name"
+    }}
+  </div> {{! name }}
+
+  <div class="form-group">
+    {{input
+      value=model.tagline
+      class="form-control"
+      placeholder="Position tagline"
+    }}
+  </div> {{! tagline }}
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-6">
+        {{date-picker
+          date=model.startDate
+          class="form-control"
+          placeholder="Start date"
+        }}
+      </div>
+      <div class="col-xs-6">
+        {{date-picker
+          date=model.endDate
+          class="form-control"
+          placeholder="End date"
+        }}
+      </div>
+    </div>
+  </div> {{! dates }}
+
+  <hr>
+
+  <div class="form-group">
+    {{company-picker
+      company=model.company
+      store=controller.store
+    }}
+  </div> {{! company }}
+
+  <hr>
+
+  {{#each activity in model.activities}}
+  <fieldset>
+
+    <label>Activity </label>
+    <div class="form-group">
+      {{input
+        value=activity.name
+        class="form-control"
+        placeholder="Activity Name"
+      }}
+    </div>
+    <div class="form-group">
+      {{input
+        value=activity.description
+        class="form-control"
+        placeholder="Description"
+      }}
+    </div>
+    <div class="form-group">
+    <button {{action "linkSkills" activity}} class="btn btn-default">
+      <i class="fa fa-plus"></i> Link skills
+    </button>
+      {{input
+        value=skillSearchbox
+        class="form-control"
+        placeholder="Search skills"
+      }}
+    </div>
+
+  </fieldset>
+  {{/each}} {{! activities }}
+
+  <div class="form-group">
+    <button {{action "newActivity"}} class="btn btn-default">
+      <i class="fa fa-plus"></i> Add activity
+    </button>
+  </div>
+
+</form>

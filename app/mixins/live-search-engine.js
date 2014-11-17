@@ -13,22 +13,6 @@ export default Ember.Mixin.create({
       var target = normalizeString(result.get(searchProperty));
       return target.indexOf(searchString) === 0;
     }, this);
-  },
-
-  lseMakeEngine: function(searchString, searchModel, searchProperty){
-    return Ember.Object.create({
-      searchString: searchString,
-      searchModel: this.store.findAll(searchModel),
-      searchProperty: searchProperty,
-      filterSearch: this.filterSearch,
-      searchResults: function(){
-        return this.filterSearch(
-          this.get('searchString'),
-          this.get('searchModel'),
-          this.get('searchProperty')
-        );
-      }.property('searchString')
-    });
-  },
+  }
 
 });

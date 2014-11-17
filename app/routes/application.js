@@ -2,6 +2,13 @@ import Ember from 'ember';
 
 var mainMenu = Ember.ArrayProxy.create()
   .set('content', [{
+    name: 'profiles',
+    items: [
+      {name:'profiles portal', target:'profiles'},
+      {name:'browse profiles', target:'profiles'},
+      {name:'add profiles', target:'profiles.create'},
+    ]
+  },{
     name: 'skills',
     items: [
       {name:'skill portal', target:'skills'},

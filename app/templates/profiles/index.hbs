@@ -1,7 +1,9 @@
 <h1>All profiles</h1>
 
 <div class="row">
-  {{#each}}
-    {{name}}
-  {{/each}}
+{{#each}}
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    {{view "profile-display" displayMode="mini" skill=this}}
+  </div>
+{{/each}}
 </div>

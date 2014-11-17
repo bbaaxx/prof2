@@ -29,6 +29,7 @@ Router.map(function() {
     });
     this.route('create');
   });
+  this.route('profiles/create');
 });
 
 export default Router;

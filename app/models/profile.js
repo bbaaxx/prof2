@@ -20,10 +20,10 @@ var fixtures = [
 
 export default DS.Model.extend({
 
-  name: DS.attr('string'),
-  description: DS.attr('string'),
-  skillset:       DS.belongsTo('skillset', {async:true}),
-  positionset:     DS.belongsTo('positionset', {async:true}),
-  educationset:   DS.belongsTo('educationset', {async:true})
+  name:          DS.attr('string'),
+  description:   DS.attr('string'),
+  skillsets:     DS.hasMany('skillset', {async:true}),
+  positionsets:  DS.hasMany('positionset', {async:true}),
+  educationsets: DS.hasMany('educationset', {async:true})
 
 }).reopenClass({FIXTURES:fixtures});
