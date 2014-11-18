@@ -1,0 +1,28 @@
+<label>New Activity </label>
+<div class="form-group">
+  {{input
+    value=newActivity.name
+    class="form-control"
+    placeholder="Activity Name"
+  }}
+</div>
+<div class="form-group">
+  {{input
+    value=newActivity.description
+    class="form-control"
+    placeholder="Description"
+  }}
+</div>
+<div class="form-group">
+  <ul class="list-unstyled">
+  {{#each skill in newActivity.skills}}
+    <li>{{skill.name}}</li>
+  {{/each}}
+  </ul>
+  {{skill-picker
+    value=searchString
+    store=controller.store
+    skillsArray=newActivity.skills
+    placeholder="Search skills"
+  }}
+</div>

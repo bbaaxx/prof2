@@ -11,6 +11,11 @@ var fixtures = [
     name: 'management',
     metric: 2,
     value: 4
+  }, {
+    id: 3,
+    name: 'support',
+    metric: 1,
+    value: 3
   }
 ];
 

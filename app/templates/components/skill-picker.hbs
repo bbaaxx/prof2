@@ -1,1 +1,14 @@
 {{yield}}
+<div class="skill-picker">
+  {{input value=searchString
+    class="form-control"
+    placeholder="Search skills"
+  }}
+  <ul class="list-unstyled">
+  {{#each skill in searchResults}}
+    <li>{{skill.name}}
+    <a href="" {{action "pushSkill" skill}}>Select this</a>
+    </li>
+  {{/each}}
+  </ul>
+</div>

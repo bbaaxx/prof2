@@ -1,0 +1,33 @@
+{{yield}}
+
+<div class="position-activity-picker">
+  <fieldset {{bind-attr disabled="addingActivity"}}>
+    {{input
+      value=searchString
+      class="form-control"
+      placeholder="Find activities"
+    }}
+  </fieldset>
+
+  <ul class="list-unstyled">
+  {{#each activity in searchResults}}
+    <li>
+      <a href="" {{action "linkActivity" activity}}>
+        {{activity.name}}
+      </a>
+    </li>
+  {{/each}}
+    {{#if searchString}}
+    <li>
+      {{#unless searchResults.length}}<span class="text-danger">No results found</span> |{{/unless}}
+      <a href=""{{action "newActivity"}}>Create a new activity <i class="fa fa-plus"></i> </a>
+    </li>
+    {{/if}}
+  </ul>
+
+  {{#if newActivity}}
+    {{partial "editors/position-activity"}}
+    <button {{action "saveNewActivity" newActivity}} class="btn btn-success">Save this activity</button>
+  {{/if}}
+
+</div>

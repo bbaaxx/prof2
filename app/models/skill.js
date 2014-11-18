@@ -9,6 +9,10 @@ var fixtures = [
     id: 2,
     name: 'Project Management',
     indicators: [2]
+  }, {
+    id: 3,
+    name: 'Problem solving',
+    indicators: [2]
   }
 ];
 

@@ -35,8 +35,6 @@
     </div>
   </div> {{! dates }}
 
-  <hr>
-
   <div class="form-group">
     {{company-picker
       company=model.company
@@ -46,42 +44,17 @@
 
   <hr>
 
-  {{#each activity in model.activities}}
-  <fieldset>
+  <h3>Position activities</h3>
+  <ul class="list-unstyled">
+    {{#each activity in model.activities}}
+    <li class="bg-primary">{{activity.name}}</li>
+    {{/each}}
+  </ul>
 
-    <label>Activity </label>
-    <div class="form-group">
-      {{input
-        value=activity.name
-        class="form-control"
-        placeholder="Activity Name"
-      }}
-    </div>
-    <div class="form-group">
-      {{input
-        value=activity.description
-        class="form-control"
-        placeholder="Description"
-      }}
-    </div>
-    <div class="form-group">
-    <button {{action "linkSkills" activity}} class="btn btn-default">
-      <i class="fa fa-plus"></i> Link skills
-    </button>
-      {{input
-        value=skillSearchbox
-        class="form-control"
-        placeholder="Search skills"
-      }}
-    </div>
+  {{position-activity-picker
+    activities=model.activities
+    store=controller.store
+  }} {{! activities }}
 
-  </fieldset>
-  {{/each}} {{! activities }}
-
-  <div class="form-group">
-    <button {{action "newActivity"}} class="btn btn-default">
-      <i class="fa fa-plus"></i> Add activity
-    </button>
-  </div>
-
+  <button {{action "savePosition"}} class="btn btn-success"><i class="fa fa-check"></i>Save position</button>
 </form>
