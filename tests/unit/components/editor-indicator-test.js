@@ -5,7 +5,7 @@ import {
 
 moduleForComponent('editor-indicator', 'EditorIndicatorComponent', {
   // specify the other units that are required for this test
-  // needs: ['component:foo', 'helper:bar']
+  // needs: ['model:skill', 'model:skill-indicator']
 });
 
 test('it renders', function() {

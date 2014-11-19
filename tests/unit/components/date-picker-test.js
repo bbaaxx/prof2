@@ -14,7 +14,6 @@ test('it renders', function() {
   // creates the component instance
   var component = this.subject();
   equal(component._state, 'preRender');
-
   // appends the component to the page
   this.append();
   equal(component._state, 'inDOM');
